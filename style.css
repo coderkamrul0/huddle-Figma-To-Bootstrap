@@ -1,0 +1,25 @@
+p {
+    color: #66768E;
+}
+
+.theme-padding{
+    padding: 24px;
+}
+.profile-style{
+    border: 2px solid #294CFF;
+    padding: 2px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.active{
+    border-bottom: 3px solid #294CFF;
+    
+}
+.toggle-option {
+    padding-bottom: 8px;
+}
+input, textarea{
+    outline: none;
+    padding-left: 5px;
+}
