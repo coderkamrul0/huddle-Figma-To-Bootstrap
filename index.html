@@ -7,11 +7,11 @@
   <title>Huddle</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-    <style>
-      p{
-        color: #66768E;
-      }
-    </style>
+  <style>
+    p {
+      color: #66768E;
+    }
+  </style>
 </head>
 
 <body>
@@ -22,57 +22,55 @@
       <a class="navbar-brand" href="#">
         <img src="Images/huddle.png" alt="Logo" />
       </a>
-
       <!-- Navbar toggler for mobile -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-
         <!-- Middle links -->
-        <ul class="navbar-nav mx-auto d-flex gap-md-3" style="color: #66768E;">
+        <ul class="navbar-nav mx-auto d-flex gap-md-3">
           <li class="nav-item">
-            <a class="nav-link" href="#">Dashboard</a>
+            <a style="color: #66768E;" class="nav-link" href="#">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Analytics</a>
+            <a style="color: #66768E;" class="nav-link" href="#">Analytics</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#">Courses</a>
+            <a style="color: #66768E;" class="nav-link dropdown-toggle" href="#">Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#">Bundle Courses</a>
+            <a style="color: #66768E;" class="nav-link dropdown-toggle" href="#">Bundle Courses</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="#">Students</a>
+            <a style="color: #66768E;" class="nav-link dropdown-toggle" href="#">Students</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Earning</a>
+            <a style="color: #66768E;" class="nav-link" href="#">Earning</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Message</a>
+            <a style="color: #66768E;" class="nav-link" href="#">Message</a>
           </li>
         </ul>
-
         <!-- Right side icons -->
         <div class="d-flex align-items-center">
-          <i class="bi bi-search mx-3 py-2 px-3 border rounded-4" style="border-radius: 50%; cursor: pointer;"></i>
-          <div class="border py-2 rounded-4 me-3" style="position: relative; cursor: pointer;">
-            <i class="bi bi-bell mx-3"></i>
-            <p style="position: absolute; top: 5px; left: 25px; background-color: red; border-radius: 50%; padding-left: 5px; padding-right: 5px; font-size: 12px; font-weight: bold; color: white;">5</p>
+          <i class="bi bi-search mx-3 py-1 px-2 border rounded-3" style="border-radius: 50%; cursor: pointer;"></i>
+          <div class="border py-1 rounded-3 me-3 px-2 " style="position: relative; cursor: pointer;">
+            <i class="bi bi-bell"></i>
+            <p
+              style="position: absolute; top: 0px; left: 15px; background-color: red; border-radius: 50%; padding-left: 5px; padding-right: 5px; font-size: 10px; font-weight: bold; color: white;">
+              5
+            </p>
           </div>
           <div class="dropdown">
             <img src="Images/profile.png" class="dropdown-toggle" href="#" role="button" id="profileDropdown"
               data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
             </img>
             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
-              <a class="dropdown-item" href="#">Profile</a>
-              <a class="dropdown-item" href="#">Account Settings</a>
-              <a class="dropdown-item" href="#">Theme Setting</a>
-              <a class="dropdown-item" href="#">DNS</a>
+              <a class="dropdown-item rounded" href="#">Profile</a>
+              <a class="dropdown-item rounded" href="#">Account Settings</a>
+              <a class="dropdown-item rounded" href="#">Theme Setting</a>
+              <a class="dropdown-item rounded" href="#">DNS</a>
             </div>
           </div>
         </div>
@@ -80,209 +78,211 @@
     </div>
   </nav>
   <!-- Navbar end here  -->
-
   <!-- Main body content start here  -->
-  <div class="container ">
-
-
-    <!-- Tab -->
-    <div class="mx-md-5">
-      <div>
-        <ul class="list-unstyled border d-flex gap-4 fw-semibold px-5 py-3 mt-3 rounded mb-0">
-          <li class="border-bottom border-2 pb-1 border-primary">Theme Setting</li>
-          <li>DNS</li>
-        </ul>
-      </div>
-  
-  
-      <div class="border rounded p-md-5">
-        <div class="row px-md-5">
-          <!-- Main Content Left side  -->
-          <div class="col-md-9">
-            <div class="container border rounded-3 pt-3">
-              <div>
+  <div style="background-color: #F9FAFB;">
+    <div class="container">
+      <!-- Tab -->
+      <div class="mx-lg-5 mx-md-2">
+        <div class="pt-5">
+          <ul class="nav nav-tabs list-unstyled border d-flex gap-4  px-5 py-3  rounded mb-0" id="ex1" role="tablist">
+            <li class="" role="presentation"><a class="active" style="text-decoration: none; color: black;"
+                id="ex1-tab-1" data-mdb-toggle="tab" href="#ex1-tabs-1" role="tab" aria-controls="ex1-tabs-1"
+                aria-selected="true">Theme Setting</a></li>
+            <li class="nav-item" role="presentation">
+              <a style="text-decoration: none; color: black;" class="" id="ex1-tab-2" data-mdb-toggle="tab"
+                href="#ex1-tabs-2" role="tab" aria-controls="ex1-tabs-2" aria-selected="false">DNS</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Tabs content -->
+        <div class="tab-content border rounded p-md-5" id="ex1-content">
+          <div class="d-md-flex gap-3 px-lg-5 tab-pane fade show active" id="ex1-tabs-1" role="tabpanel"
+            aria-labelledby="ex1-tab-1">
+            <!-- Main Content Left side  -->
+            <div class="col-md-9">
+              <div class="container border rounded-3 pt-3">
                 <div>
-                  <h5>Logo</h5>
-                  <p>The logo visible within your Huddle App.</p>
+                  <div>
+                    <h5>Logo</h5>
+                    <p>The logo visible within your Huddle App.</p>
+                  </div>
+                  <div class="image-preview">
+                    <label for="image-input">
+                      <img src="Images/full_logo.png" alt="Default Image" class="img-fluid">
+                    </label>
+                    <input type="file" id="image-input" style="display: none;">
+                  </div>
                 </div>
-                <div class="image-preview">
-                  <label for="image-input">
-                    <img src="Images/full_logo.png" alt="Default Image" class="img-fluid">
-                  </label>
-                  <input type="file" id="image-input" style="display: none;">
-                </div>
-              </div>
-              <div>
                 <div>
-                  <h5>App Logo</h5>
-                  <p>The logo visible within your Huddle App. </p>
+                  <div>
+                    <h5>App Logo</h5>
+                    <p>The logo visible within your Huddle App. </p>
+                  </div>
+                  <div class="image-preview">
+                    <label for="image-input">
+                      <img src="Images/gipio.png" alt="Default Image" class="img-fluid">
+                    </label>
+                    <input type="file" id="image-input" style="display: none;">
+                  </div>
                 </div>
-                <div class="image-preview">
-                  <label for="image-input">
-                    <img src="Images/gipio.png" alt="Default Image" class="img-fluid">
-                  </label>
-                  <input type="file" id="image-input" style="display: none;">
-                </div>
-              </div>
-              <div>
-                <div class="py-3" style="display: flex; align-items: center; gap: 15px;">
-                  <div>
-                    <img src="Images/circle.png" alt="">
-                  </div>
-                  <div>
-                    <h5>Menu Background Color</h5>
-                    <p>This is the color of your menu bar. Your logo should look good on this.</p>
-                  </div>
-                  <i class="bi bi-eyedropper text-primary border px-1 rounded input-group-prepend"
-                    style="cursor: pointer;" id="colorPickerButton"></i>
-                </div>
-              </div>
-              <div>
-                <div class="py-3" style="display: flex; align-items: center; gap: 15px;">
-                  <div>
-                    <img src="Images/colorswatch.png" alt="">
-                  </div>
-                  <div>
-                    <h5>Menu Background Color</h5>
-                    <p>This is the color of your menu bar. Your logo should look good on this.</p>
-                  </div>
-                  <i class="bi bi-eyedropper text-primary border px-1 rounded input-group-prepend"
-                    style="cursor: pointer;" id="colorPickerButton"></i>
-                </div>
-              </div>
-            </div>
-  
-  
-            <div class="container border rounded-3 pt-3 mt-3">
-              <div>
-                <h5 class="pb-3">Select Login page Theme</h5>
-                <div class="d-md-flex justify-content-between gap-5 mb-3">
-                  <div>
-                    <img src="Images/img-4.png" alt="">
-                  </div>
-                  <div>
-                    <div class="d-flex justify-content-between">
-                      <h5 class="fw-bold">Raouls Choice</h5>
-                      <p class="text-success">Active Theme</p>
+                <div>
+                  <div class="py-3" style="display: flex; align-items: center; gap: 15px;">
+                    <div>
+                      <img src="Images/circle.png" alt="">
                     </div>
-                    <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en
-                      geoptimaliseerd voor conversie.</p>
+                    <div>
+                      <h5>Menu Background Color</h5>
+                      <p>This is the color of your menu bar. Your logo should look good on this.</p>
+                    </div>
+                    <i class="bi bi-eyedropper text-primary border px-1 rounded input-group-prepend"
+                      style="cursor: pointer;" id="colorPickerButton"></i>
                   </div>
                 </div>
-                <div class="d-md-flex justify-content-between gap-5 mb-3">
-                  <div>
-                    <img src="Images/img-1.png" alt="">
-                  </div>
-                  <div>
-                    <h5 class="fw-bold">Volledige Breedte Afbeelding</h5>
-                    <p>In dit thema kon je een valledige breedte afbeeliding uplioden en heb je toegang tot nog aartal
-                      extra optes.</p>
-                  </div>
-                </div>
-                <div class="d-md-flex justify-content-between gap-5 mb-3">
-                  <div>
-                    <img src="Images/img-2.png" alt="">
-                  </div>
-                  <div>
-                    <h5 class="fw-bold">Zijbalk & Achtergrond</h5>
-                    <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en
-                      geoptimaliseerd voor conversie.</p>
+                <div>
+                  <div class="py-3" style="display: flex; align-items: center; gap: 15px;">
+                    <div>
+                      <img src="Images/colorswatch.png" alt="">
+                    </div>
+                    <div>
+                      <h5>Menu Background Color</h5>
+                      <p>This is the color of your menu bar. Your logo should look good on this.</p>
+                    </div>
+                    <i class="bi bi-eyedropper text-primary border px-1 rounded input-group-prepend"
+                      style="cursor: pointer;" id="colorPickerButton"></i>
                   </div>
                 </div>
-                <div class="d-md-flex justify-content-between gap-5 mb-3">
-                  <div>
-                    <img src="Images/img-3.png" alt="">
+              </div>
+              <div class="container border rounded-3 pt-3 mt-3">
+                <div>
+                  <h5 class="pb-3">Select Login page Theme</h5>
+                  <div class="d-md-flex justify-content-between gap-5 mb-3">
+                    <div>
+                      <img src="Images/img-4.png" alt="">
+                    </div>
+                    <div>
+                      <div class="d-flex justify-content-between">
+                        <h5 class="fw-bold">Raouls Choice</h5>
+                        <p class="text-success">Active Theme</p>
+                      </div>
+                      <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en
+                        geoptimaliseerd voor conversie.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-md-flex justify-content-between gap-5 mb-3">
+                    <div>
+                      <img src="Images/img-1.png" alt="">
+                    </div>
+                    <div>
+                      <h5 class="fw-bold">Volledige Breedte Afbeelding</h5>
+                      <p>In dit thema kon je een valledige breedte afbeeliding uplioden en heb je toegang tot nog aartal
+                        extra optes.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-md-flex justify-content-between gap-5 mb-3">
+                    <div>
+                      <img src="Images/img-2.png" alt="">
+                    </div>
+                    <div>
+                      <h5 class="fw-bold">Zijbalk & Achtergrond</h5>
+                      <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en
+                        geoptimaliseerd voor conversie.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="d-md-flex justify-content-between gap-5 mb-3">
+                    <div>
+                      <img src="Images/img-3.png" alt="">
+                    </div>
+                    <div>
+                      <h5 class="fw-bold">Raouls Choice</h5>
+                      <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en
+                        geoptimaliseerd voor conversie.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container border rounded-3 py-3 mt-3">
+                <div class="d-md-flex align-items-center gap-5">
+                  <div class="text-center p-3 rounded" style="border-style: dashed; border-color: rgb(196, 194, 194);">
+                    <label for="ImgUpload">
+                      <i class="bi bi-cloud-arrow-up" for="ImgUpload" style="cursor: pointer;"></i>
+                      <input type="file" id="ImgUpload" style="display: none;">
+                    </label>
+                    <p><span class="text-primary fw-semibold">Click to upload</span><br>or drag and drop</p>
                   </div>
                   <div>
-                    <h5 class="fw-bold">Raouls Choice</h5>
-                    <p>Raouls Choice is een simple en elegant thema zonder extra opties, mokkeljk te gebruken en
-                      geoptimaliseerd voor conversie.</p>
+                    <h5>Upload Login Page Background Image</h5>
+                    <p>SVG, PNG, JPG or GIF (max. 1200 x 900px)</p>
                   </div>
                 </div>
               </div>
             </div>
-  
-  
-            <div class="container border rounded-3 py-3 mt-3">
-              <div class="d-md-flex align-items-center gap-5">
-                <div class="text-center p-3 rounded" style="border-style: dashed; border-color: rgb(196, 194, 194);">
+            <!-- Main Content Right side  -->
+            <div class="col-md-3">
+              <div class="border rounded p-3">
+                <div>
+                  <div>
+                    <h5>Meta</h5>
+                    <p>Metadata is used to improve your position in search engines.</p>
+                  </div>
+                  <div>
+                    <h5>Meta Title</h5>
+                    <input type="text" name="" id="" class="border-0 rounded pe-4 py-2"
+                      style="background-color: #E5ECF6; width: 100%;">
+                  </div>
+                  <div>
+                    <h5>Meta Description</h5>
+                    <textarea class="rounded" name="" placeholder="Type your description" id="" cols="25" rows="3"
+                      style="background-color: #E5ECF6;border: none; width: 100%;"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="border rounded p-3 mt-3">
+                <h5>Favicon</h5>
+                <p>Your favicon will be shown in browsers and in search result.</p>
+                <div id="uploadContainer" class="text-center p-3 rounded"
+                  style="border-style: dashed; border-color: rgb(196, 194, 194);">
                   <label for="upload">
-                    <i class="bi bi-cloud-arrow-up" for="upload" style="cursor: pointer;"></i>
+                    <i id="uploadIcon" class="bi bi-cloud-arrow-up" style="cursor: pointer;"></i>
                     <input type="file" id="upload" style="display: none;">
                   </label>
-                  <p><span class="text-primary fw-semibold">Click to upload</span><br>or drag and drop</p>
-                </div>
-  
-                <div>
-                  <h5>Upload Login Page Background Image</h5>
-                  <p>SVG, PNG, JPG or GIF (max. 1200 x 900px)</p>
+                  <p><span class="text-primary fw-semibold">Click to upload</span><br>or drag and drop SVG, PNG, JPG or
+                    GIF (max. 300x300px)
+                  </p>
                 </div>
               </div>
-            </div>
-  
-          </div>
-           <!-- Main Content Right side  -->
-          <div class="col-md-3">
-            <div  class="border rounded p-3">
-              <div>
-                <div>
-                  <h5>Meta</h5>
-                  <p>Metadata is used to improve your position in search engines.</p>
+              <div class="border rounded p-3 mt-3">
+                <h5>Apple Icon</h5>
+                <p>Also known as Apple touch icon. This is the icon that is displayed to navigate to your Huddie when a
+                  user has saved your Huddies as a favourite in their Apple device.
+                </p>
+                <div class="text-center p-3 rounded" style="border-style: dashed; border-color: rgb(196, 194, 194);">
+                  <label for="Imgupload">
+                    <i class="bi bi-cloud-arrow-up" for="Imgupload" style="cursor: pointer;"></i>
+                    <input type="file" id="Imgupload" style="display: none;">
+                  </label>
+                  <p><span class="text-primary fw-semibold">Click to upload</span><br>or drag and drop
+                    SVG, PNG, JPG or GIF (max. 300x300px)
+                  </p>
                 </div>
-                <div>
-                  <h5>Meta Title</h5>
-                  <input type="text" name="" id="" class="border-0  pe-4 py-2" style="background-color: #EFEFEF; width: 100%;">
-                </div>
-                <div>
-                  <h5>Meta Description</h5>
-                  <textarea name="" placeholder="Type your description" id="" cols="25" rows="5" style="background-color: #EFEFEF;border: none; width: 100%;"></textarea>
-                </div>
-              </div>
-            </div>
-  
-            <div  class="border rounded p-3 mt-3">
-              <h5>Favicon</h5>
-              <p>Your favicon will be shown in browsers and in search result.</p>
-              <div class="text-center p-3 rounded" style="border-style: dashed; border-color: rgb(196, 194, 194);">
-                <label for="upload">
-                  <i class="bi bi-cloud-arrow-up" for="upload" style="cursor: pointer;"></i>
-                  <input type="file" id="upload" style="display: none;">
-                </label>
-                <p><span class="text-primary fw-semibold">Click to upload</span><br>or drag and drop
-                  SVG, PNG, JPG or GIF (max. 300x300px)</p>
-              </div>
-            </div>
-  
-  
-            <div  class="border rounded p-3 mt-3">
-              <h5>Apple Icon</h5>
-              <p>Also known as Apple touch icon. This is the icon that is displayed to navigate to your Huddie when a user has saved your Huddies as a favourite in their Apple device.</p>
-              <div class="text-center p-3 rounded" style="border-style: dashed; border-color: rgb(196, 194, 194);">
-                <label for="upload">
-                  <i class="bi bi-cloud-arrow-up" for="upload" style="cursor: pointer;"></i>
-                  <input type="file" id="upload" style="display: none;">
-                </label>
-                <p><span class="text-primary fw-semibold">Click to upload</span><br>or drag and drop
-                  SVG, PNG, JPG or GIF (max. 300x300px)</p>
               </div>
             </div>
           </div>
           <div class=" d-flex justify-content-center py-5">
             <div>
-              <button class="px-4 py-2 bg-transparent rounded-3 border" style="border: rgb(194, 191, 191);">Cancel</button>
-            <button class="px-4 py-2  rounded-3 bg-primary text-white border border-primary">Save</button>
+              <button class="px-4 py-2 bg-transparent rounded-3 border"
+                style="border: rgb(194, 191, 191);">Cancel</button>
+              <button class="px-4 py-2  rounded-3 bg-primary text-white border border-primary">Save</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
   </div>
   <!-- Main body content end here  -->
-
-
-
-
   <!-- Links  -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -291,7 +291,30 @@
     integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
     crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    const uploadIcon = document.getElementById('uploadIcon');
+    const uploadInput = document.getElementById('upload');
+    const uploadContainer = document.getElementById('uploadContainer');
 
+    uploadIcon.addEventListener('click', () => {
+      uploadInput.click();
+    });
+
+    uploadInput.addEventListener('change', (event) => {
+      const selectedFile = event.target.files[0];
+      if (selectedFile) {
+        const selectedImage = document.createElement('img');
+        selectedImage.src = URL.createObjectURL(selectedFile);
+        selectedImage.style.maxWidth = '150px';
+        selectedImage.style.maxHeight = '300px';
+        uploadContainer.innerHTML = '';
+        uploadContainer.appendChild(selectedImage);
+      }
+    });
+  </script>
 </body>
 
 </html>
